@@ -1,0 +1,28 @@
+.nav-wrap {
+    border-top: 2px solid #e91409;
+}
+
+.nav-wrap .menu.active {
+    background-color: #e91409;
+    cursor: pointer;
+}
+
+.nav-wrap .menu a:hover {
+    color: #e91409;
+}
+
+.text-primary {
+    color: #e91409 !important;
+}
+
+.recommend {
+    border: solid 1px #f1cbc0;
+}
+
+.recommend .title {
+    color: #e91409
+}
+
+.middle {
+    border: 1px solid #f1cbc0;
+}
