@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <span class="title"><i class="demoImg"></i>计算器</span>
+        <span class="operator" id="operator"></span>
+        <span class="result" id="display">0</span>
+    </div>
+
+    <div class="middle-wrap">
+
+        <!-- 科学计算 -->
+
+        <div class="special-box" id="special_container">
+            <input type="button" value="sin">
+            <input type="button" value="cos">
+            <input type="button" value="tan">
+            <input type="button" value="log">
+            <input type="button" value="√">
+            <input type="button" value="PI">
+        </div>
+
+        <div class="power-box">
+            <input type="button" value="C" id="clean_display">
+        </div>
+
+        <!-- 数字键盘 -->
+        <div class="btn-box" id="number_container">
+            <input type="button" value="7">
+            <input type="button" value="8">
+            <input type="button" value="9">
+            <input type="button" value="4">
+            <input type="button" value="5">
+            <input type="button" value="6">
+            <input type="button" value="1">
+            <input type="button" value="2">
+            <input type="button" value="3">
+            <input type="button" value="0">
+            <input type="button" value=".">
+        </div>
+
+        <!-- 运算符 -->
+        <div class="operation-box" id="operate_container">
+            <input type="button" value="+">
+            <input type="button" value="-">
+            <input type="button" value="*">
+            <input type="button" value="/">
+        </div>
+    </div>
+
+    <!-- 获取结果 -->
+    <div class="equal-box">
+        <input type="button" value="=" class="equal-button" id="calculation"/>
+    </div>
+</div>
+
+
+<script src="scripts/main_can.js"></script>
+</body>
+</html>
